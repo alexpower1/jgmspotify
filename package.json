@@ -12,6 +12,7 @@
     "heroku-postbuild": "npm run build"
   },
   "dependencies": {
+    "@nuxtjs/axios": "^5.8.0",
     "async-redis": "^1.1.7",
     "nuxt": "^2.0.0"
   },
