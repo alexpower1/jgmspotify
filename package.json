@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.8.0",
+    "@nuxtjs/dotenv": "^1.4.1",
     "async-redis": "^1.1.7",
     "nuxt": "^2.0.0"
   },
