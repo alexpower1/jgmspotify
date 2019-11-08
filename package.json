@@ -1,0 +1,17 @@
+{
+  "name": "jgmspotify",
+  "version": "1.0.0",
+  "description": "A Nuxt Spotify &#39;Now Playing&#39; app",
+  "author": "JGM",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {}
+}
