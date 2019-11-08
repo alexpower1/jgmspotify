@@ -5,7 +5,7 @@
   "author": "JGM",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
+    "dev": "nodemon --watch api --exec \"nuxt\"",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
@@ -15,6 +15,7 @@
     "@nuxtjs/axios": "^5.8.0",
     "@nuxtjs/dotenv": "^1.4.1",
     "async-redis": "^1.1.7",
+    "nodemon": "^1.19.4",
     "nuxt": "^2.0.0"
   },
   "devDependencies": {}
