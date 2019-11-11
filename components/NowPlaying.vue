@@ -120,6 +120,11 @@ export default {
 </script>
 
 <style scoped>
+@font-face {
+font-family: "Gilroy Ultra Light";
+src: url("~assets/GilroyUltraLight.woff2");
+}
+
 section {
   position: relative;
   display: grid;
@@ -149,11 +154,11 @@ section:before {
 }
 section:after {
   transform: rotate(1deg);
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(4, 15, 26, 0.315);
 }
 section:before {
   transform: rotate(3deg);
-  background: rgba(255, 255, 255, 0.03);
+  background: rgba(4, 4, 26, 0.158);
 }
 .metadata {
   padding-left: 1.4em;
@@ -161,7 +166,7 @@ section:before {
   z-index: 2;
 }
 h2 {
-  font-family: 'Oswald', monospace;
+  font-family: 'Gilroy Ultra Light', sans-serif;
   margin: 0;
   font-size: 3em;
 }

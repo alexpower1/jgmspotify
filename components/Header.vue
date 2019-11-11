@@ -14,12 +14,16 @@ export default {
 </script>
 
 <style scoped>
+@font-face {
+font-family: "Gilroy Bold";
+src: url("~assets/GilroyBold.woff2");
+}
+
 h1 {
   line-height: 0.65em;
-  font-family: 'Oswald', monospace;
+  font-family: 'Gilroy Bold', sans-serif;
   letter-spacing: 1px;
-  font-size: 10em;
-  transform: rotate(-3deg) translateY(-50%);
+  font-size: 8em;
   -webkit-box-reflect: below 0px
     linear-gradient(transparent, rgba(255, 255, 255, 0.3));
 }

@@ -1,6 +1,6 @@
 <template functional>
   <footer>
-    A Nuxt/Spotify Demo built by JGM.
+    A JGM Nuxt project based on <a href="https://github.com/cherscarlett/cherislistening">this tutorial</a>
   </footer>
 </template>
 

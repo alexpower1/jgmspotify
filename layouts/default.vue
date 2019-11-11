@@ -14,7 +14,7 @@ import Header from '~/components/Header.vue'
 import Footer from '~/components/Footer.vue'
 export default {
   components: { Header, Footer },
-  titleShort: 'is Listening',
+  titleShort: 'is listening to...',
   authorName: 'JGM',
   computed: {
     isAuth() {
@@ -44,23 +44,28 @@ export default {
 </script>
 
 <style>
+@font-face {
+font-family: "Gilroy Ultra Light";
+src: url("~assets/GilroyUltraLight.woff2");
+}
+
 :root {
   --colorGray: #333642;
-  --colorBlue: rgba(118, 120, 224, 0.5);
-  --colorBrightBlue: rgb(0, 112, 255);
+  --colorBlue: rgba(22, 214, 22, 0.5);
+  --colorBrightBlue: rgb(27, 196, 27);
 }
 html {
-  background: #000000;
+  background: #111A28;
 }
 body {
   padding: 0;
   margin: 0;
   color: white;
-  font-family: 'Bungee Hairline', monospace;
+  font-family: 'Gilroy Ultra Light', sans-serif;
 }
 .base {
   background-size: cover;
-  background-image: linear-gradient(to top, var(--colorGray), #000000);
+  background-image: linear-gradient(to top, var(--colorGray), #111A28);
   display: grid;
   grid-template-rows: auto 1fr auto;
   height: 100vh;
@@ -89,7 +94,7 @@ a:after {
   transform: rotate(-3deg);
 }
 a:before {
-  background: rgba(118, 120, 224, 0.4);
+  background: rgb(31, 109, 24);
   transform: rotate(2deg);
 }
 .auth header,
