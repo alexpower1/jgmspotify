@@ -31,7 +31,7 @@ export default {
     return {
       title: `${this.$options.authorName} ${
         this.$options.titleShort
-      } ·X· A Musical App`,
+      }`,
       link: [
         {
           rel: 'stylesheet',
