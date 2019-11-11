@@ -1,5 +1,6 @@
+require('dotenv').config()
 
-export default {
+module.exports = {
   mode: 'universal',
   /*
   ** Headers of the page
@@ -38,8 +39,7 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-    '@nuxtjs/axios',
-    '@nuxtjs/dotenv'
+    '@nuxtjs/axios'
   ],
   env: {
     spotifyId: process.env.SPOTIFY_CLIENT_ID,
@@ -54,6 +54,9 @@ export default {
     ** You can extend webpack config here
     */
     extend (config, ctx) {
+        config.node = {
+            fs: 'empty'
+        }
     }
   },
   serverMiddleware: [
